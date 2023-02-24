@@ -1,39 +1,8 @@
-# BALLS
-### Balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
-balls
+class Balls {
+int diam;
+
+Balls() {
+diam = 0;
+}
+
+}
