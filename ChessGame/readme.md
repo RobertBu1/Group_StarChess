@@ -2,7 +2,7 @@
 
 ## Design
 
--A digital game of chess
+-A digital game of chess /n
 -customizable color of pieces
 -ai practice bot
 -play against yourself/friends on 1 device
