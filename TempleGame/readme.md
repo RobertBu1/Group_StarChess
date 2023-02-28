@@ -1,4 +1,4 @@
-### Temple Run game
+# Temple Run game
 
 ## Design
 
@@ -16,7 +16,7 @@
 
 - one hit death
 
-# Obstacles
+## Obstacles
 
 - Fire
 
