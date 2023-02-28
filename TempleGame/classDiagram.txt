@@ -1,0 +1,47 @@
+Temple Run Game:
+
+Game{
+	random Obstacle;
+	spawnObstacle(){}
+	Update(){}
+}
+
+class Player{
+	float speed;
+	speedUp(){}
+	die(){}
+	Update(){}
+}
+
+class Ball{
+	catchUp(){}
+	Update(){}
+}
+
+class PitPrefab{
+	Update(){}
+}
+
+class SplitPrefab(){
+	Split(){}
+}
+
+class FirePrefab{
+	Update(){}
+}
+
+class WallFallPrefab{
+	Update(){}
+	Fall(){}
+}
+
+class TripPrefab{
+	Update(){}
+}
+
+class TurnPrefab{
+	Update(){}
+}
+class ScorePanel{
+	Update(){}
+}
