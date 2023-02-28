@@ -30,6 +30,8 @@
 
 - part of walkway falls
 
+![Class Diagram](https://github.com/RobertBu1/Games/blob/main/TempleGame/classDiagram.txt)
+
 ![Design for temple run game](https://github.com/RobertBu1/Games/blob/main/images/Screen%20Shot%202023-02-28%20at%209.36.40%20AM.png)
 
 ![Start screen](https://github.com/RobertBu1/Games/blob/main/images/Screen%20Shot%202023-02-28%20at%209.37.04%20AM.png)
