@@ -4,8 +4,6 @@
 
 -An Asian-themed digital game of chess
 
--ai practice bot
-
 -play against yourself/friends on 1 device
 
 -objective:checkmate
