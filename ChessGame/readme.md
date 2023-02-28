@@ -2,10 +2,14 @@
 
 ## Design
 
--A digital game of chess /n
+-A digital game of chess
+
 -customizable color of pieces
+
 -ai practice bot
+
 -play against yourself/friends on 1 device
+
 -objective:checkmate
 
 
