@@ -29,3 +29,5 @@
 - turn
 
 - part of walkway falls
+
+![Class Diagram]()
