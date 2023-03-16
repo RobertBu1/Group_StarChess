@@ -2,7 +2,7 @@
 
 ## Design
 
--An Asian-themed or alien-themed or western-themed digital game of chess
+-A Star Wars themed digital game of chess
 
 -play against yourself/friends on 1 device
 
