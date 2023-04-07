@@ -1,3 +1,5 @@
+// Link to Star Wars ASCII art:
+// http://www.ascii-art.de/ascii/s/starwars.txt
 // Luca DalCanto, Spencer Wood (this file)
 // Robert, Andrew, Pierce, Bridger worked on art in .txt files (we're not adding comments to those because they're .txt files...)
 
@@ -47,7 +49,6 @@ void home() {
 
     if (choice == 1) {
       players = 1;
-      RegularGame MyGame = RegularGame(players);
       break;
     }
 
@@ -77,22 +78,25 @@ void home() {
 
     else if (choice == 6) {
       while (getline(SettingText, output)) {
+        
         cout << "\n" + output << flush;
-      }
+       
     }
 
-
+    // more to come!
   }
+}
 }
 
 void gameSummary() {}
 
-int main() { // code starts here
 
+int main() { // code starts here
+  
   // intro
   Clear();
   while (getline(IntroText, output)) {
-    cout << output + "\n" << flush;
+    cout << "\033[38;2;<220>;<123>;<26>m" << output + "\n" << flush;
     this_thread::sleep_for(150ms);
   }
 
@@ -107,9 +111,35 @@ int main() { // code starts here
     }
 
     //Game:
+    // RegularGame MyGame = RegularGame(players);
+
+    // MyGame.displayBoard();
+
+    Piece testPiece("PAWN", false, true);
+
+    string output = testPiece.display(1);
+    cout << output + "\n";
     
     
     // if app doesn't end (player wants to play...):
     gameSummary();
+  
   }
-}
+   // Define color codes
+    string red = "\033[31m";
+    string green = "\033[32m";
+    string yellow = "\033[33m";
+    string blue = "\033[34m";
+    string reset = "\033[0m";
+
+    // Display color options
+    cout << "Choose a color:\n";
+    cout << red << "1. Red\n" << reset;
+    cout << green << "2. Green\n" << reset;
+    cout << yellow << "3. Yellow\n" << reset;
+    cout << blue << "4. Blue\n" << reset;
+
+    
+      }
+
+
