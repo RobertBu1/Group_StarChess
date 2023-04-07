@@ -5,3 +5,15 @@
 .----)   |   |  |____     |  |        |  |     |  | |  |\   | |  |__| | .----)   |   
 |_______/    |_______|    |__|        |__|     |__| |__| \__|  \______| |_______/    
                                                                                      
+                                                                                   
+ TEXT COLOR:black 30,red 31,green 32,yellow 33,blue 34,magenta 35,cyan 36,white 37,
+
+> If you would like to change the color, please choose the game mode that you would like to play. Before the game starts, you will be able to choose between 4 colors. The avaliable colors are red, green, yellow, and blue. 
+
+
+GAME MODES:
+> To play Star Chess against your friend, please redirect yourself to the homescreen by stopping the application page and press "2" once you see options for playability.
+
+> To play Star Chess against our AI, please redirect yourself to the homescreen by stopping the application and press "1" once you see options for playability.
+
+> To play our unique Star Chess game mode with custom moves, please redirect yourself to the homescreen by stopping the application and press "3" once you see options for playability.
