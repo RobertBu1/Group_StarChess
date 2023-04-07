@@ -1,6 +1,6 @@
 // Link to Star Wars ASCII art:
 // http://www.ascii-art.de/ascii/s/starwars.txt
-// Luca DalCanto, Spencer Wood (this file)
+// Luca DalCanto, Spencer Wood, Bridger Wright (this file)
 // Robert, Andrew, Pierce, Bridger worked on art in .txt files (we're not adding comments to those because they're .txt files...)
 
 // libraries:
