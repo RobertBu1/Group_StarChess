@@ -1,6 +1,18 @@
-______ .______       _______  _______   __  .___________.    _______.
+  ______ .______       _______  _______   __  .___________.    _______.
  /      ||   _  \     |   ____||       \ |  | |           |   /       |
 |  ,----'|  |_)  |    |  |__   |  .--.  ||  | `---|  |----`  |   (----`
 |  |     |      /     |   __|  |  |  |  ||  |     |  |        \   \    
 |  `----.|  |\  \----.|  |____ |  '--'  ||  |     |  |    .----)   |   
  \______|| _| `._____||_______||_______/ |__|     |__|    |_______/   
+
+Product Manager: Robert Bulanon
+
+Back End Developer(s): Luca Dalcanto, Spencer Wood
+
+UX/UI Designer(s): Andrew Hopkins
+
+Multimedia Creator/Implementer(s): Robert Bulanon
+
+Tester/QA(s): Bridger Wright
+
+Art: Pierce Leavitt, Robert Bulanon 
