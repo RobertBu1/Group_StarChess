@@ -6,3 +6,32 @@
     |__|     \______/      |__|     \______/  | _| `._____|__| /__/     \__\ |_______|
 
 Star chess like any other chess but with a twist...
+All of your pieces will be turned into ships from star wars including ships from the Rebel Alliance (White pieces) and the Galactic Empire (Black Pieces).
+
+Selection 1: in the menu allows you to play single player chess against an AI bot.
+
+Selection 2: allows you to play chess with a friend or someone with you and allows you to control both sides of the board.
+
+Selection 3: Allows you to play our Star Wars themed chess varient with modifiedpieces locally.
+
+Selection 4: Allows you to see this page as well as instructions on how to play.
+
+Selection 5: Allows you to see our credits screen and show everyones role in the project.
+
+Selection 6: Allows you to change asthetics like color and star chess and regular chess.
+
+.___  ___.   ______   ____    ____  __  .__   __.   _______ 
+|   \/   |  /  __  \  \   \  /   / |  | |  \ |  |  /  _____|
+|  \  /  | |  |  |  |  \   \/   /  |  | |   \|  | |  |  __  
+|  |\/|  | |  |  |  |   \      /   |  | |  . `  | |  | |_ | 
+|  |  |  | |  `--'  |    \    /    |  | |  |\   | |  |__| | 
+|__|  |__|  \______/      \__/     |__| |__| \__|  \______| 
+                                                            
+
+Step 1. To move your pieces just say the piece and where it is currently "Queen D1"
+
+Step 2.  once the board refreshes and indicates possible moves, you may follow by stating your where you would like your piece to be moved "D4"
+
+Step 3. The board will be refreshed and your selection will be made.
+
+Important information: If the piece you selected is not your desired piece you are able to return to the piece selection by saying the word "back" and return to step 1.
