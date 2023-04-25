@@ -28,15 +28,15 @@ ifstream CreditText("credits.txt");
 ifstream SettingText("settings.txt");
 
 void Clear() { // for clearing console
-#if defined _WIN32
-  system("cls");
-  // clrscr(); // including header file : conio.h
-#elif defined(__LINUX__) || defined(__gnu_linux__) || defined(__linux__)
-  system("clear");
-  // std::cout<< u8"\033[2J\033[1;1H"; //Using ANSI Escape Sequences
-#elif defined(__APPLE__)
-  system("clear");
-#endif
+  #if defined _WIN32
+    system("cls");
+    // clrscr(); // including header file : conio.h
+  #elif defined(__LINUX__) || defined(__gnu_linux__) || defined(__linux__)
+    system("clear");
+    // std::cout<< u8"\033[2J\033[1;1H"; //Using ANSI Escape Sequences
+  #elif defined(__APPLE__)
+    system("clear");
+  #endif
 }
 
 void home() {
@@ -85,7 +85,7 @@ void home() {
 
     // more to come!
   }
-}
+  }
 }
 
 void gameSummary() {}
@@ -96,7 +96,7 @@ int main() { // code starts here
   // intro
   Clear();
   while (getline(IntroText, output)) {
-    cout << "\033[38;2;<220>;<123>;<26>m" << output + "\n" << flush;
+    cout << output + "\n" << flush;
     //this_thread::sleep_for(150ms);
   }
 
@@ -111,14 +111,47 @@ int main() { // code starts here
     }
 
     //Game:
-    // RegularGame MyGame = RegularGame(players);
+    RegularGame MyGame = RegularGame(players);
+    string coordinate;
+    while(true){
+      while (true){
+        Clear();
+        MyGame.displayBoard(false, true); //(show selections, whiteOnBottom)
+        cout << "Type Piece Coordinate >> ";
+        cin >> coordinate;    
+        if(MyGame.selectPiece(coordinate, true)){
+          Clear();
+          MyGame.displayBoard(true, true); //(show selections, whiteOnBottom)
+          cout << "Target Square >> ";
+          cin >> coordinate;
+          if(coordinate != "back"){
+            if(MyGame.movePiece(coordinate)){
+              break;
+            }
+          }
+        }
+      }
+      while (true){
+        Clear();
+        MyGame.displayBoard(false, false); //(show selections, whiteOnBottom)
+        cout << "Type Piece Coordinate >> ";
+        cin >> coordinate;    
+        if(MyGame.selectPiece(coordinate, false)){
+          Clear();
+          MyGame.displayBoard(true, false); //(show selections, whiteOnBottom)
+          cout << "Target Square >> ";
+          cin >> coordinate;
+          if(coordinate != "back"){
+            if(MyGame.movePiece(coordinate)){
+              break;
+            }
+          }
+        }
+      }
+    }
 
-    // MyGame.displayBoard();
+    
 
-    Piece testPiece("PAWN", false, true);
-
-    string output = testPiece.display(1);
-    cout << output + "\n";
     
     
     // if app doesn't end (player wants to play...):
@@ -132,6 +165,16 @@ int main() { // code starts here
     string blue = "\033[34m";
     string reset = "\033[0m";
 
+//   Black: \u001b[30m
+// Red: \u001b[31m
+// Green: \u001b[32m
+// Yellow: \u001b[33m
+// Blue: \u001b[34m
+// Magenta: \u001b[35m
+// Cyan: \u001b[36m
+// White: \u001b[37m
+// Reset: \u001b[0m
+
     // Display color options
     cout << "Choose a color:\n";
     cout << red << "1. Red\n" << reset;
@@ -139,7 +182,4 @@ int main() { // code starts here
     cout << yellow << "3. Yellow\n" << reset;
     cout << blue << "4. Blue\n" << reset;
 
-    
-      }
-
-
+}
