@@ -10,6 +10,6 @@
 [Main-debug-] Replit back end file
 [Main.cpp-](https://github.com/RobertBu1/Games/blob/main/src/Star-Chess/main.cpp) Generates display files. 
 [Settings.txt-](https://github.com/RobertBu1/Games/blob/main/src/Star-Chess/settings.txt) Ability to change user preferences 
-
+ 
 # Replit link to play it for yourself
 [Play](https://replit.com/@the-do-nothings/Star-Chess?v=1)
