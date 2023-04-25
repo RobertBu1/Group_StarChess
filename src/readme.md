@@ -2,7 +2,7 @@
 
 [Page with all code files] (https://github.com/RobertBu1/Games/tree/main/src/Star-Chess)
 
-[Credits-] Gives credit to the development team, and other art creators. (https://github.com/RobertBu1/Games/blob/main/src/Star-Chess/credits.txt)
+[Credits-](https://github.com/RobertBu1/Games/blob/main/src/Star-Chess/credits.txt) Gives credit to the development team, and other art creators. 
 [Game.h-] Sets up the board and assigns piece movement logic. (https://github.com/RobertBu1/Games/blob/main/src/Star-Chess/game.h)
 [Homescreen.txt-] Art for the instructions screen to show implemented game options. (https://github.com/RobertBu1/Games/blob/main/src/Star-Chess/homescreen.txt)
 [Instructions.txt-] More in depth explanations of game functions and a user tutorial. (https://github.com/RobertBu1/Games/blob/main/src/Star-Chess/instructions.txt)
