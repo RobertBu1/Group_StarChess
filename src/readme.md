@@ -12,8 +12,6 @@
 
 [Intro.txt-](https://github.com/RobertBu1/Games/blob/main/src/Star-Chess/intro.txt) ASCII art text file that plays on program run.
 
-[Main-debug-] Replit back end file
-
 [Main.cpp-](https://github.com/RobertBu1/Games/blob/main/src/Star-Chess/main.cpp) Generates display files.
 
 [Settings.txt-](https://github.com/RobertBu1/Games/blob/main/src/Star-Chess/settings.txt) Ability to change user preferences 
