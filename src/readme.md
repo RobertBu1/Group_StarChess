@@ -1,6 +1,6 @@
 # Summary of SRC File applications
 
-[Page with all code files] (https://github.com/RobertBu1/Games/tree/main/src/Star-Chess)
+[Page with all code files](https://github.com/RobertBu1/Games/tree/main/src/Star-Chess)
 
 [Credits-](https://github.com/RobertBu1/Games/blob/main/src/Star-Chess/credits.txt) Gives credit to the development team, and other art creators.
 
